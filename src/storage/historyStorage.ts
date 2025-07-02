@@ -18,7 +18,7 @@ function sortByDate(storage: HistoryProps[]) {
   });
 
   return storage;
-}
+} 
 
 async function getHistory(): Promise<HistoryProps[]> {
   try {

@@ -135,7 +135,7 @@ export default function NewSnack() {
                       value={value}
                       keyboardType="numeric"
                       autoCapitalize="none"
-                      onChangeText={text => onChange(formatDate(text))}
+                      onChangeText={}
                       errorMessage={errors.date?.message}
                     />
                   )}
