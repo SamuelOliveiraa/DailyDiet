@@ -1,5 +1,8 @@
 # Daily Diet
 
+![Imagem do Projeto](/src/assets/og-image.png)
+
+
 Daily Diet é um aplicativo mobile desenvolvido em React Native para controle de refeições diárias, permitindo ao usuário registrar, editar, excluir e visualizar estatísticas sobre sua alimentação, acompanhando se está dentro ou fora da dieta.
 
 ## Funcionalidades
