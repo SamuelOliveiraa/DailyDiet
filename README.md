@@ -1,35 +1,34 @@
 # Daily Diet
 
-![Imagem do Projeto](/src/assets/og-image.png)
+![Project Image](/src/assets/og-image.png)
 
+Daily Diet is a mobile application developed in React Native for controlling daily meals, allowing the user to register, edit, delete, and view statistics about their diet, tracking whether they are on or off the diet.
 
-Daily Diet é um aplicativo mobile desenvolvido em React Native para controle de refeições diárias, permitindo ao usuário registrar, editar, excluir e visualizar estatísticas sobre sua alimentação, acompanhando se está dentro ou fora da dieta.
+## Features
 
-## Funcionalidades
+- Register, edit, and delete meals
+- Meal history grouped by date
+- Performance statistics (percentage on/off diet, sequence, totals)
+- Visual feedback when registering meals on or off the diet
+- Modern interface using Gluestack UI
+- Form validation with Yup and React Hook Form
 
-- Cadastro, edição e exclusão de refeições
-- Histórico de refeições agrupadas por data
-- Estatísticas de desempenho (porcentagem dentro/fora da dieta, sequência, totais)
-- Feedback visual ao cadastrar refeições dentro ou fora da dieta
-- Interface moderna utilizando Gluestack UI
-- Validação de formulários com Yup e React Hook Form
-
-## Estrutura do Projeto
+## Project Structure
 
 ```
 src/
   app/
-    pages/           # Telas principais (Home, Nova Refeição, Editar, Estatísticas, etc)
-  components/        # Componentes reutilizáveis (Button, ModalSnack, SnackContainer, etc)
-  hooks/             # Hooks customizados (ex: useToastNotification)
-  storage/           # Lógica de persistência (snackStorage, historyStorage)
-  utils/             # Funções utilitárias (máscaras, estatísticas)
-  @types/            # Tipagens globais
+    pages/           # Main screens (Home, New Meal, Edit, Statistics, etc.)
+  components/        # Reusable components (Button, ModalSnack, SnackContainer, etc.)
+  hooks/             # Custom hooks (e.g., useToastNotification)
+  storage/           # Persistence logic (snackStorage, historyStorage)
+  utils/             # Utility functions (masks, statistics)
+  @types/            # Global typings
 config/
-  theme/             # Customização de tema Gluestack UI
+  theme/             # Gluestack UI theme customization
 ```
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 - [React Native](https://reactnative.dev/)
 - [Expo](https://expo.dev/)
@@ -40,50 +39,50 @@ config/
 - [Lucide React Native](https://lucide.dev/)
 - [UUID](https://www.npmjs.com/package/uuid)
 
-## Instalação
+## Installation
 
-1. Clone o repositório:
+1. Clone the repository:
 
    ```sh
-   git clone https://github.com/seu-usuario/DailyDiet.git
+   git clone https://github.com/your-username/DailyDiet.git
    cd DailyDiet
    ```
 
-2. Instale as dependências:
+2. Install the dependencies:
 
    ```sh
    npm install
    ```
 
-3. Rode o projeto:
+3. Run the project:
    ```sh
    npx expo start
    ```
 
 ## Scripts
 
-- `npm run start` — Inicia o projeto Expo
-- `npm run build` — (Se aplicável) Build do projeto
+- `npm run start` — Starts the Expo project
+- `npm run build` — (If applicable) Build the project
 
-## Estrutura de Telas
+## Screen Structure
 
-- **Home:** Visão geral e estatísticas rápidas
-- **Nova Refeição:** Cadastro de uma nova refeição
-- **Editar Refeição:** Alteração de dados de uma refeição existente
-- **Visualizar Refeição:** Detalhes, edição e exclusão
-- **Estatísticas:** Detalhamento do desempenho do usuário
-- **Feedback:** Telas de sucesso ao cadastrar refeições
+- **Home:** Overview and quick statistics
+- **New Meal:** Register a new meal
+- **Edit Meal:** Change data of an existing meal
+- **View Meal:** Details, editing, and deletion
+- **Statistics:** Detailed user performance
+- **Feedback:** Success screens when registering meals
 
-## Observações
+## Notes
 
-- O projeto utiliza validação de data no formato DD/MM/YYYY e hora no formato HH:MM.
-- As refeições são armazenadas localmente usando AsyncStorage.
-- O tema pode ser customizado em theme.
+- The project uses date validation in DD/MM/YYYY format and time in HH:MM format.
+- Meals are stored locally using AsyncStorage.
+- The theme can be customized in `theme`.
 
-## Licença
+## License
 
-Este projeto está sob a licença MIT.
+This project is under the MIT license.
 
 ---
 
-Sinta-se à vontade para contribuir ou sugerir melhorias!
+Feel free to contribute or suggest improvements!
